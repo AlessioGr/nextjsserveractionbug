@@ -3,7 +3,7 @@ import { renderServerFn } from './Repro/renderServerFn'
 
 
 
-export const Page = async () => {
+export default function Page() {
   return (
     <div>
       Test Page: <ClientComponent renderServerFn={renderServerFn}/>
@@ -11,4 +11,3 @@ export const Page = async () => {
   )
 }
 
-export default Page

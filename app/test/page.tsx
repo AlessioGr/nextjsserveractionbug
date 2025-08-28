@@ -1,6 +1,6 @@
 import { ClientComponent } from './Repro/ClientComponent'
 
-export const Page = async () => {
+export default function Page() {
   return (
     <div>
       Test Page: <ClientComponent />
@@ -8,4 +8,3 @@ export const Page = async () => {
   )
 }
 
-export default Page
